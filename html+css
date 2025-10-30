@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Kenangan Romantis & Hangat</title>
+  <style>
+    :root{
+      --bg:#FFF5F8; /* lembut pink pastel */
+      --card:#FFFFFF;
+      --muted:#6b6b6b;
+      --accent:#ff8fab; /* pink pastel lembut */
+      --accent2:#ffd6e0; /* sentuhan pastel tambahan */
+      --text:#2b2b2b;
+    }
+    *{box-sizing:border-box;}
+    body{
+      margin:0;
+      font-family:'Poppins', system-ui, sans-serif;
+      background:linear-gradient(180deg,#fff,var(--bg));
+      color:var(--text);
+    }
+    header{text-align:center;padding:40px 20px 20px;}
+    .title{font-size:30px;font-weight:700;margin:0;color:var(--accent);}
+    .subtitle{margin-top:8px;color:var(--muted);font-size:15px;}
+
+    .container{max-width:980px;margin:0 auto;padding:20px;}
+
+    .hero{display:flex;flex-wrap:wrap;gap:20px;align-items:center;background:var(--card);padding:20px;border-radius:18px;box-shadow:0 6px 24px rgba(255,143,171,0.15);border:2px solid var(--accent2);}
+    .hero img{width:200px;height:200px;object-fit:cover;border-radius:16px;border:4px solid var(--accent2);}
+    .hero-text{flex:1;}
+    .greeting{font-size:22px;font-weight:600;}
+    .greeting small{display:block;margin-top:8px;font-weight:400;color:var(--muted);}
+
+    .gallery{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:18px;margin-top:30px;}
+    .card{background:var(--card);padding:12px;border-radius:16px;box-shadow:0 4px 16px rgba(255,143,171,0.1);overflow:hidden;transition:transform .2s,border .2s;}
+    .card:hover{transform:translateY(-4px);border:1px solid var(--accent2);}
+    .card img{width:100%;height:180px;object-fit:cover;border-radius:10px;}
+    .caption{margin-top:10px;font-weight:600;color:var(--accent);}
+    .moment{margin-top:6px;color:var(--muted);font-size:14px;}
+
+    footer{text-align:center;margin-top:40px;padding-bottom:20px;color:var(--muted);font-size:13px;}
+
+    @media(max-width:520px){.hero{flex-direction:column;align-items:flex-start}.hero img{width:100%;height:230px}}
+  </style>
+</head>
+<body>
+  <header>
+    <h1 class="title">Happy Anniversary 4th 💗</h1>
+    <p class="subtitle">Sayang, terima kasih sudah selalu ada di sisiku — dalam susah, senang, dan semua kekacauan yang aku buat. Maaf kalau selama ini aku belum jadi pasangan yang sempurna. Aku masih belajar untuk jadi lebih baik buat hubungan kita.
+
+Makasih udah sabar, sayang. Aku tahu aku sulit di mengerti, tapi kamu tetap bertahan. Maaf kalau kadang aku nyakitin hati kamu tanpa sengaja.
+Terima kasih juga sudah jadi rumah terhangat buat hatiku, Maaf atas tutur kata dan sikap aku yang mungkin pernah melukai hati kamu, Di hari spesial ini, aku cuma mau bilang:
+aku bersyukur, karena Tuhan kasih aku — seseorang yang selalu membuatku merasa cukup. ✨
+
+Terima kasih udah tahan sama aku yang kadang nyebelin tapi ngangenin 😜 Maaf kalau sering ngambek nggak jelas, itu cuma tanda aku sayang banget sama kamu. Selamat anniversary ya, semoga makin banyak momen lucu dan bahagia dan semoga cinta kita makin kuat setiap harinya. 💖</p>
+  </header>
+
+  <div class="container">
+    <section class="hero">
+      <img src="https://i.ibb.co.com/d4HvLhKR/IMG-20250801-09415847.jpg" alt="Foto utama kalian" />
+      <div class="hero-text">
+        <p class="greeting">From: Sri Rahayu 
+          <p class="greeting">For: Ari Maulana 💗<small>Terima kasih sudah menjadi rumah di saat aku sedih atau bahagia, terimakasih sudah menerima aku apa adanya
+          semoga kita menjadi manusia yang di penuhi dengan  kebahagia an and semoga kita bisa bahagia bersama sampai selama nya.</small></p>
+      </div>
+    </section>
+
+    <section class="gallery">
+      <article class="card">
+        <img src="https://i.ibb.co.com/2Yffx9By/IMG-20230831-WA0058.jpg" alt="Foto berdua di bawah hujan" />
+        <div class="caption">Fotbar Mts</div>
+        <div class="moment">Masih inget nggak waktu kita foto ini? Pulang sekolah, panas, tapi kamu tetep sempetin nyamperin aku cuma buat foto bareng.
+Sekarang tiap liat foto ini, rasanya pengen balik ke hari itu lagi 🍃</div>
+      </article>
+
+      <article class="card">
+        <img src="https://i.ibb.co.com/b5DJjmdM/IMG-20231005-190345.jpg" alt="Foto beli jas hujan" />
+        <div class="caption">First Time Aku ke Rumah Nenek Kamu</div>
+        <div class="moment">Pertama kali ke rumah nenek kamu, tapi langsung ngerasa kayak di rumah sendiri. Pelukannya lembut banget, hangatnya masih kebawa sampai sekarang 💞”.</div>
+      </article>
+
+      <article class="card">
+        <img src="https://i.ibb.co.com/KQpYg9L/IMG20241108170655.jpg" alt="Foto jajan setelah hujan" />
+        <div class="caption">Pulbar+Jajan Dulu</div>
+        <div class="moment">Masih inget hari itu? Pulang sekolah dijemput kamu, terus kita malah muter dulu sambil jajan. Sederhana, tapi moment-nya nggak akan aku lupain 💗.</div>
+      </article>
+
+      <article class="card">
+        <img src="https://i.ibb.co.com/jkVgDLCv/IMG20240830162727.jpg" alt="Foto pertama kali ke rumah" />
+        <div class="caption">Ngobrol Sama TIARA</div>
+        <div class="moment">Lucu ya, kamu bisa ngobrol ketawa ketawa sama dia… padahal aku ada di situ, berharap kamu ngeliat aku walau sebentar tapi ternyata kamu ga 
+          sadar sama sekali bahwa aku ada di situ.”.</div>
+      </article>
+
+      <article class="card">
+        <img src="https://i.ibb.co.com/v6T1JW5y/IMG-20241101-175946-530.jpg" alt="Foto di ruang tamu hangat" />
+        <div class="caption">Anniv ke 3thn</div>
+        <div class="moment">Kamu inget nggak foto ini? Waktu itu kita rayain 3 tahun bareng — sederhana, tapi hangat banget.
+Aku masih inget tiap tawa, tiap tatapan, semuanya.
+Tiga tahun ini nggak selalu mulus, tapi aku bersyukur kita selalu nemuin cara buat tetap bareng. 🤍</div>
+      </article>
+
+      <article class="card">
+        <img src="https://i.ibb.co.com/d0N8qVH8/IMG-20241110-213436-0492.jpg" alt="Foto jalan sore" />
+        <div class="caption">First Time Ke Rumah Kamu</div>
+        <div class="moment">“Aku masih inget hari itu — pertama kali aku main ke rumah kamu. Di jalan kehujanan parah, tapi pas sampai, mamahmu langsung nyuruh aku ganti baju biar nggak masuk angin. Entah kenapa, sejak itu aku ngerasa nyaman banget di rumah kamu.” 💖</div>
+      </article>
+
+      <article class="card">
+        <img src="https://i.ibb.co.com/zVCjHdWC/1731843024366.jpg" alt="Foto makan malam sederhana" />
+        <div class="caption">Ke Rumah Kamu Untuk KeSekian Kalinya</div>
+        <div class="moment">“Waktu itu di rumah kamu… suasananya hangat banget, kayak semua capek langsung hilang. Bahagia yang sederhana, tapi nyata.”.</div>
+      </article>
+
+      <article class="card">
+        <img src="https://i.ibb.co.com/zhd53ZPT/IMG-20250721-18273468.jpg" alt="Foto berdua tersenyum" />
+        <div class="caption">Di Jemput + Hujan Hujan an</div>
+        <div class="moment">“Alfamart, jas hujan, dan jalan basah — cuma hal kecil, tapi bareng kamu semua jadi berkesan.
+          moment yang ga akan aku lupakan, seru banget waktu itu kita jalan jalan malem sambil hujan” 🍃🛵.</div>
+      </article>
+    </section>
+
+    <footer>
+      <p>Kenangan ini akan selalu tersimpan di hati—lembut, manis, dan hangat seperti warna cinta kita 💕</p>
+    </footer>
+  </div>
+</body>
+</html>
